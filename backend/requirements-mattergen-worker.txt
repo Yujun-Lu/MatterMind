@@ -1,0 +1,8 @@
+-r requirements-common.txt
+setuptools>=68,<81
+numpy<2
+ase>=3.22,<=3.25.0
+pymatgen>=2024.2.20
+spglib>=2.0
+seekpath>=2.1
+matplotlib==3.8.4

@@ -1,0 +1,179 @@
+# =========================
+# MM-v2-2 open-source ignore
+# =========================
+
+# OS / system junk
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.Spotlight-V100/
+.Trashes/
+._*
+
+# Editor / IDE
+.idea/
+.vscode/
+*.iml
+*.suo
+*.user
+*.userossc
+*.sln.docstates
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.pyo
+.python-version
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python packaging / cache / test
+.Python
+build/
+dist/
+.eggs/
+*.egg
+*.egg-info/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+
+# Node / frontend
+node_modules/
+frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.tsbuildinfo
+
+# Frontend build / cache
+coverage/
+.next/
+.nuxt/
+.svelte-kit/
+.parcel-cache/
+.cache/
+
+# Logs / runtime temp
+*.log
+logs/
+log/
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Local databases
+*.sqlite3
+*.db
+
+# Environment / secrets
+.env
+.env.local
+.env.*
+!.env.example
+!.env.template
+!frontend/.env.example
+*.pem
+*.key
+*.crt
+*.p12
+secrets/
+credentials/
+token.json
+auth.json
+
+# Local app data / generated outputs
+uploads/
+storage/
+data/
+results/
+artifacts/
+outputs/
+exports/
+downloads/
+
+# Project-specific experimental data
+# Contains proprietary VASP/Wannier inputs, heavy outputs, and non-public experiment assets.
+Experiment Data/
+
+# Scientific / HPC proprietary or heavy files
+POTCAR
+**/POTCAR
+potpaw*/
+potpaw_PBE*/
+potpaw_LDA*/
+pseudo/
+pseudopotentials/
+
+WAVECAR
+CHGCAR
+CHG
+TMPCAR
+WAVEDER
+PCDAT
+LOCPOT
+ELFCAR
+PROOUT
+vaspwave.h5
+vaspout.h5
+
+OUTCAR
+vasprun.xml
+XDATCAR
+EIGENVAL
+DOSCAR
+PROCAR
+IBZKPT
+REPORT
+OSZICAR
+CONTCAR
+
+# Wannier / post-processing artifacts
+*.amn
+*.mmn
+*.eig
+*.chk
+*.wout
+*.wpout
+*.cube
+*.bxsf
+*.extxyz
+*.npy
+
+# Scheduler / cluster outputs
+*.out
+*.err
+*.o
+*.e
+.sbatch_tmp/
+
+# Keep safe templates and manifests
+!README.md
+!LICENSE
+!requirements.txt
+!requirements-*.txt
+!package.json
+!package-lock.json
+!yarn.lock
+!pnpm-lock.yaml
+!.gitignore
