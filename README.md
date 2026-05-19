@@ -14,7 +14,9 @@ It combines:
 This repository contains the orchestration layer and UI. It does not include proprietary binaries, licensed pseudopotentials, or private experiment data.
 
 ## 🎬 VASP Studio Demo
-https://github.com/user-attachments/assets/d26346dd-3d55-4657-bbcd-aabcdce66615
+https://github.com/user-attachments/assets/8375afbe-3c6c-49a6-a2cb-4fb44e15b42c
+
+
 
 ## 🎬 MatterGen Studio Demo
 https://github.com/user-attachments/assets/43bf0146-9f53-4edc-ae49-213472dfef97
