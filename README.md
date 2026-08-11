@@ -4,6 +4,8 @@
 
 ### An LLM-assisted AI4Science workspace for crystal generation, first-principles simulation, and intelligent materials analysis.
 
+[![Paper](https://img.shields.io/badge/DOI-10.1002%2Fmgea.70075-2B6CB0)](https://onlinelibrary.wiley.com/doi/10.1002/mgea.70075)
+
 
 
 <br>
@@ -16,6 +18,18 @@
 ![Status](https://img.shields.io/badge/Status-Research%20Prototype-orange)
 
 </div>
+
+---
+
+## Publication
+
+MatterMind is described in our peer-reviewed paper:
+
+> **[MatterMind: A User-Friendly Material Design Platform Assisted by Large Language Model](https://onlinelibrary.wiley.com/doi/10.1002/mgea.70075)**  
+> Kaiyang Xu, Yujun Lu, Lifeng Liu, and Lei Zhang  
+> *Materials Genome Engineering Advances* **4**(2), e70075 (2026). [https://doi.org/10.1002/mgea.70075](https://doi.org/10.1002/mgea.70075)
+
+If MatterMind supports your research, please cite the paper using the reference below.
 
 ---
 
@@ -403,14 +417,23 @@ The backend supports:
 
 ## Citation
 
-If you use MatterMind in academic work, please cite this repository or contact the author for citation information.
+If you use MatterMind in academic work, please cite our paper:
+
+> Xu, K., Lu, Y., Liu, L., & Zhang, L. (2026). [MatterMind: A User-Friendly Material Design Platform Assisted by Large Language Model](https://onlinelibrary.wiley.com/doi/10.1002/mgea.70075). *Materials Genome Engineering Advances*, *4*(2), e70075. [https://doi.org/10.1002/mgea.70075](https://doi.org/10.1002/mgea.70075)
 
 ```bibtex
-@software{mattermind2026,
-  title  = {MatterMind: An LLM-Assisted Platform for Crystal Generation, Materials Simulation, and AI-Guided Analysis},
-  author = {Lu, Yujun},
-  year   = {2026},
-  url    = {https://github.com/Yujun-Lu/MatterMind}
+@article{Xu2026MatterMind,
+  title     = {MatterMind: A User-Friendly Material Design Platform Assisted by Large Language Model},
+  author    = {Xu, Kaiyang and Lu, Yujun and Liu, Lifeng and Zhang, Lei},
+  journal   = {Materials Genome Engineering Advances},
+  volume    = {4},
+  number    = {2},
+  eid       = {e70075},
+  year      = {2026},
+  month     = jun,
+  publisher = {Wiley},
+  doi       = {10.1002/mgea.70075},
+  url       = {https://doi.org/10.1002/mgea.70075}
 }
 ```
 
