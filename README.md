@@ -51,12 +51,11 @@ Read the [reproducibility](guidance/REPRODUCIBILITY.md) and [source/version note
 
 ## Watch MatterMind
 
-| VASP Studio | MatterGen Studio |
+| VASP Studio · 5:34 | MatterGen Studio · 3:38 |
 | --- | --- |
-| [![VASP Studio promotional cover](images/VASP%20Cover.png)](https://github.com/user-attachments/assets/8375afbe-3c6c-49a6-a2cb-4fb44e15b42c) | [![MatterGen Studio promotional cover](images/MatterGen%20Cover.png)](https://github.com/user-attachments/assets/43bf0146-9f53-4edc-ae49-213472dfef97) |
-| [Watch the VASP walkthrough ↗](https://github.com/user-attachments/assets/8375afbe-3c6c-49a6-a2cb-4fb44e15b42c) | [Watch the MatterGen walkthrough ↗](https://github.com/user-attachments/assets/43bf0146-9f53-4edc-ae49-213472dfef97) |
+| https://github.com/user-attachments/assets/8375afbe-3c6c-49a6-a2cb-4fb44e15b42c | https://github.com/user-attachments/assets/43bf0146-9f53-4edc-ae49-213472dfef97 |
 
-*Thumbnails are promotional artwork. Refer to the recordings, source code, and paper figures for the interface and scientific results.*
+*Video covers are illustrative; see the recordings and papers for the workflows and scientific results.*
 
 ## How it fits together
 
