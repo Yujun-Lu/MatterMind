@@ -1,0 +1,26 @@
+[
+  {
+    "file": "mattermind-preprint.pdf",
+    "version": "preprint",
+    "pages": 37,
+    "bytes": 6742207,
+    "sha256": "c3b34ff55944b6e99cedbfac325c366bfc76afb4105c691d904c638cabee7700",
+    "archived": "2026-10-03"
+  },
+  {
+    "file": "mattermind-published.pdf",
+    "version": "published",
+    "pages": 9,
+    "bytes": 2663902,
+    "sha256": "7b7e4c005b523be6b85dbcafb3e7ffed0d4468ae28bcecee53ac96c568b2b0d5",
+    "archived": "2026-10-03"
+  },
+  {
+    "file": "mattermind-supporting-information.pdf",
+    "version": "preprint-si",
+    "pages": 43,
+    "bytes": 7300183,
+    "sha256": "cffd87dfaf98f3c9688b911e08d5884994cd3cf239c701a4fd64637a2135b425",
+    "archived": "2026-10-03"
+  }
+]

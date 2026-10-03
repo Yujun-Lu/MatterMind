@@ -1,0 +1,21 @@
+name: Publication integrity
+on:
+  push:
+    paths: ['docs/**', 'guidance/**', 'README.md', 'CITATION.cff', 'scripts/verify_publication.py', '.github/workflows/publication-check.yml']
+  pull_request:
+    paths: ['docs/**', 'guidance/**', 'README.md', 'CITATION.cff', 'scripts/verify_publication.py', '.github/workflows/publication-check.yml']
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: python scripts/verify_publication.py
+      - run: node --check docs/app.js

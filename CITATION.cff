@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "Please cite the journal article for the published platform and the extended manuscript for the additional workflows. See docs/citation.bib."
+type: software
+title: MatterMind
+abstract: "A web-based research platform for crystal generation, materials simulation, structured post-processing, and LLM-assisted analysis."
+repository-code: "https://github.com/Yujun-Lu/MatterMind"
+url: "https://yujun-lu.github.io/MatterMind/"
+authors:
+  - family-names: Lu
+    given-names: Yujun
+preferred-citation:
+  type: article
+  title: "MatterMind: A User-Friendly Material Design Platform Assisted by Large Language Model"
+  authors:
+    - family-names: Xu
+      given-names: Kaiyang
+    - family-names: Lu
+      given-names: Yujun
+    - family-names: Liu
+      given-names: Lifeng
+    - family-names: Zhang
+      given-names: Lei
+  journal: Materials Genome Engineering Advances
+  volume: "4"
+  issue: "2"
+  start: e70075
+  year: 2026
+  doi: 10.1002/mgea.70075
+  url: "https://doi.org/10.1002/mgea.70075"
